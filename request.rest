@@ -1,0 +1,14 @@
+GET http://localhost:3003/users
+###
+
+POST http://localhost:3003/users
+Content-Type: application/javascript
+
+{
+    "id": "u003",
+    "name": "Ciclana",
+    "email": "ciclana@email.com",
+    "password": "12548"
+}
+
+###
